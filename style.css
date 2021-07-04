@@ -11,15 +11,23 @@ h1{
 .container{
     display: flex;
     margin-bottom: 150px;
+    justify-content: space-evenly;
+    
 }
 .half-width{
-    width: 50%;
-    padding-left: 5%;
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 .half-width img{
     width: 80%;
     
 }
+
+
+
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
@@ -35,9 +43,10 @@ h1{
 }
 .dream-big{
     background-image: url("images/2back.png");
-    background-position: right;
+    background-position: right bottom;
     background-repeat: no-repeat;
-    background-size: 300px;
+    background-size: 200px;
+    
 }
 .experience-area{
  
@@ -49,24 +58,34 @@ h1{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 10px;
+    padding-left: 20px;
     border-radius: 5px;
     box-shadow: 10px 10px 40px grey;
     
 
 }
-#b2{
+#b1{
     border-left: 7px solid;
-    border-image: linear-gradient(blue skyblue);
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
 }
-#b1{
+#b2{
     
-        border-left: 7px solid;
-        border-image: linear-gradient(blue skyblue);
-        border-image-slice: 1;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
     
 }
 footer{
+    text-align: center;
+}
+
+#h33{
+    text-align: center;
+}
+#h11{
+    text-align: center;
+}
+#h22{
     text-align: center;
 }
